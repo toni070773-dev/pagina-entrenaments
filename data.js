@@ -593,6 +593,36 @@ const MONTHLY_BASE = [
 ];
 const SESSIONS_BASE = [
   {
+    "id": "hub-2026-10-01-RUNNING",
+    "date": "2026-10-01",
+    "type": "Running",
+    "name": "Cinta suau · Run Artis",
+    "distance_km": 4,
+    "duration_min": 25.266666666666666,
+    "avg_speed_kmh": 9.5,
+    "max_speed_kmh": 10.7,
+    "avg_hr": 129,
+    "max_hr": 137,
+    "avg_cadence": 172,
+    "max_cadence": 184,
+    "calories_active": 237,
+    "calories_total": 270,
+    "training_effect_aerobic": 2.4,
+    "training_effect_anaerobic": 0,
+    "summary": "4,00 km · 25:16 · 6:19/km · FC 129/137 · TE 2,4 / 0,0",
+    "source": "Captures Garmin i MyWellness aportades per Toni",
+    "notes": "Garmin: inici 19:32, 25:16, 6:19/km, recuperació FC 26 ppm, gambada 0,94 m. MyWellness Run Artis: mateix rodatge, 4 km, 25:29, 6:22/km, 9,4 km/h mitjana i 9,7 màxima, 319 kcal, 638 MOVEs. Es prioritzen temps i mètriques Garmin i es conserva la font de cinta en aquesta nota, sense duplicar activitat. Sensacions de Toni: entrenament suau per descarregar les cames i agafar forces per al cap de setmana; Montjuïc o tirada llarga són opcions previstes, no activitats completades."
+  },
+  {
+    "id": "hub-2026-10-01-GYM",
+    "date": "2026-10-01",
+    "type": "Gym",
+    "name": "Força · Hipertrofia ISO excèntric",
+    "summary": "Cos complet · 9 exercicis · durada i voltes no confirmades",
+    "source": "Captures MyWellness aportades per Toni",
+    "notes": "Tracció 30 kg; press de pit 49 kg; rem 46 kg; press d’espatlles 38 kg; premsa de cames 110 kg; extensió d’esquena 40 kg; abdominals 31 kg; flexió de genolls 33 kg; extensió de genolls 40 kg. Pantalla: 45 s × càrrega × 30 s; una captura mostra 41 s al press de pit. Les dues captures del circuit no acrediten dues voltes. Durada total, nombre de voltes i esforç de força no confirmats. Resum MyWellness conjunt de força i cinta: 525 kcal, 1094 MOVEs; no s’atribueixen aquests totals només a la força ni se sumen a les calories de running."
+  },
+  {
     "id": 134,
     "date": "2026-09-26",
     "type": "Cycling",
