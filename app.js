@@ -16,7 +16,6 @@ for(const id of ['year','month','search'])document.getElementById(id).addEventLi
 document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));render();});
 document.querySelector('#recent').innerHTML=sessions.slice(0,3).map(row).join('');
 const latest=sessions[0];document.querySelector('#resum .grid').children[2].innerHTML=metric('Última sessió',date(latest.date))+`<div class="small">${esc(latest.name)}</div>`;
-document.querySelector('.progress').remove();
 function table(rows,fields){return `<div class="table-scroll"><table><thead><tr>${fields.map(([k,l])=>`<th>${esc(l)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${fields.map(([k])=>`<td>${esc(r[k]??'—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
 const weights=[...D.weights].filter(r=>r.date&&Number.isFinite(Number(r.kg))).sort((a,b)=>a.date.localeCompare(b.date));
 const inbody=[...D.inbody].filter(r=>r.date).sort((a,b)=>a.date.localeCompare(b.date));
