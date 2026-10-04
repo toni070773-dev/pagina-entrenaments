@@ -593,6 +593,32 @@ const MONTHLY_BASE = [
 ];
 const SESSIONS_BASE = [
   {
+    "id": "hub-2026-10-04-RUNNING",
+    "date": "2026-10-04",
+    "type": "Running",
+    "name": "Cinta · Rodatge aeròbic suau",
+    "distance_km": 7.74,
+    "duration_min": 47.916666666666664,
+    "avg_speed_kmh": 9.7,
+    "max_speed_kmh": 10.5,
+    "avg_hr": 123,
+    "max_hr": 137,
+    "avg_cadence": 170,
+    "max_cadence": 178,
+    "calories_active": 370,
+    "calories_total": 433,
+    "training_effect_aerobic": 2.2,
+    "training_effect_anaerobic": 0,
+    "z1_min": 8.716666666666667,
+    "z2_min": 38.28333333333333,
+    "z3_min": 0.55,
+    "z4_min": 0,
+    "z5_min": 0,
+    "summary": "7,74 km · 47:55 · 6:11/km · FC 123/137 · TE 2,2 / 0,0",
+    "source": "Captures Garmin i cinta aportades per Toni",
+    "notes": "Garmin: 04/10/2026, inici 18:23; ritme mitjà 6:11/km, en moviment 6:08/km i òptim 5:41/km; temps en moviment 47:31; recuperació FC 28 ppm; gambada 0,93 m. Zones configurades al Garmin: Z1 8:43 (18%), Z2 38:17 (79%), Z3 0:33 (1%), Z4 i Z5 0:00. Cinta: 47:45 al gràfic, 9,7 km/h mitjana i 10,0 km/h màxima; lleugera progressió fins a 10 km/h i tram final estable. Es prioritzen les mètriques Garmin i es conserva la font de cinta en aquesta nota, sense duplicar activitat. Sensacions de Toni al final: molt bé de cames."
+  },
+  {
     "id": "hub-2026-10-02-CYCLING",
     "date": "2026-10-02",
     "type": "Cycling",
