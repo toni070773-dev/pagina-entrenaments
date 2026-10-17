@@ -593,6 +593,35 @@ const MONTHLY_BASE = [
 ];
 const SESSIONS_BASE = [
   {
+    "id": "tredict-ktoUpvLB5dvJNikW2BDyS7",
+    "date": "2026-10-16",
+    "type": "Gym",
+    "name": "Peses · força",
+    "duration_min": 35.71666666666667,
+    "avg_hr": 97,
+    "max_hr": 118,
+    "calories_total": 157,
+    "notes": "Font Garmin Forerunner 245 via Tredict. Inici 19:00 Europe/Madrid. Durada 35:43; FC 97/118 ppm; 157 kcal estimades. Exercicis, càrregues i repeticions no disponibles en el resum. Usuari confirma sessió de peses.",
+    "tredict_activity_id": "ktoUpvLB5dvJNikW2BDyS7"
+  },
+  {
+    "id": "tredict-2ZnVMeZ2uFw3VnMMHUpCvf",
+    "date": "2026-10-16",
+    "type": "Running",
+    "name": "Cinta després de peses · 20 minuts",
+    "duration_min": 20.383333333333333,
+    "distance_km": 3.54741,
+    "avg_hr": 123,
+    "max_hr": 131,
+    "avg_power_w": 199,
+    "max_power_w": 215,
+    "avg_cadence": 170,
+    "max_cadence": 177,
+    "calories_total": 199,
+    "notes": "Font Garmin Forerunner 245 via Tredict. Inici 19:37 Europe/Madrid. 20:23; 3,547 km registrats; ritme mostrat a Tredict 5:45/km. FC 123/131 ppm; cadència 170/177 passos/min; potència 199/215 W; 199 kcal estimades. Distància de cinta segons Garmin, sense dada Mywellness ni calibratge confirmat. Usuari confirma cinta després de peses. Estat del taló no informat.",
+    "tredict_activity_id": "2ZnVMeZ2uFw3VnMMHUpCvf"
+  },
+  {
     "id": "jsx-147",
     "date": "2026-10-12",
     "type": "Running",
