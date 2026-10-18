@@ -593,6 +593,26 @@ const MONTHLY_BASE = [
 ];
 const SESSIONS_BASE = [
   {
+    "date": "2026-10-17",
+    "type": "Running",
+    "name": "Cinta progressiva · 10 km",
+    "duration_min": 55.083333333333336,
+    "distance_km": 10,
+    "avg_speed_kmh": 10.9,
+    "max_speed_kmh": 12,
+    "avg_hr": 143,
+    "max_hr": 158,
+    "avg_power_w": 213,
+    "max_power_w": 225,
+    "avg_cadence": 179,
+    "max_cadence": 186,
+    "calories_total": 672,
+    "moves": 1598,
+    "tredict_activity_id": "qiqj1qqKTrVwVVxwBsMEvP",
+    "notes": "Mywellness: 54:58, 10 km, 5:30/km, velocitat 10,9/12 km/h, 788 kcal, 1598 MOVEs, 0 m desnivell indicat. Progressiu continu des d’aproximadament 9,5 fins a 12 km/h. Garmin via Tredict: 55:05, 10,031 km, 5:29/km, FC 143/158 ppm, potència 213/225 W, cadència 179/186, 672 kcal estimades. Distància i velocitat principals de màquina; durada, FC, potència, cadència i calories principals Garmin. Fonts no sumades. Usuari confirma molt bones sensacions al final. Estat del taló no especificat.",
+    "id": "tredict-qiqj1qqKTrVwVVxwBsMEvP"
+  },
+  {
     "id": "tredict-ktoUpvLB5dvJNikW2BDyS7",
     "date": "2026-10-16",
     "type": "Gym",
@@ -622,6 +642,43 @@ const SESSIONS_BASE = [
     "tredict_activity_id": "2ZnVMeZ2uFw3VnMMHUpCvf"
   },
   {
+    "date": "2026-10-15",
+    "type": "Running",
+    "name": "Sèries 6×600 m a 13,5 km/h · cinta",
+    "duration_min": 44.53333333333333,
+    "distance_km": 8,
+    "avg_speed_kmh": 10.8,
+    "avg_hr": 143,
+    "max_hr": 166,
+    "avg_power_w": 201,
+    "max_power_w": 237,
+    "avg_cadence": 177,
+    "max_cadence": 190,
+    "calories_total": 539,
+    "moves": 1279,
+    "tredict_activity_id": "qqBcsVcsvLx3Spmi7KVu6Y",
+    "notes": "Mywellness: 44:29, 8 km, 5:33/km, 631 kcal, 1279 MOVEs. Sis blocs de 600 m a 13,5 km/h (~4:27/km), tots mantinguts segons l’usuari; pic de 14 km/h transitori en ajustar la cinta, no velocitat sostinguda. Garmin via Tredict: 44:32, 7,749 km, FC 143/166, potència 201/237 W, cadència 177/190, 539 kcal estimades. Distància principal Mywellness; FC i calories principals Garmin. Sensacions: bé de cardio, costa sostenir velocitat però no l’ha baixada. Comparació amb 30/09 i 08/10: mateix treball ràpid; FC global 5 ppm menor, compatible amb millors sensacions cardiovasculars, sense concloure millora per bloc sense analitzar intervals. Sensor irregular el 08/10; durada exacta de recuperacions avui no confirmada.",
+    "id": "tredict-qqBcsVcsvLx3Spmi7KVu6Y"
+  },
+  {
+    "date": "2026-10-13",
+    "type": "Cycling",
+    "name": "Sesión Rompepiernas · Dani Galileo",
+    "duration_min": 42.05,
+    "distance_km": 18.4,
+    "avg_power_w": 147,
+    "max_power_w": 244,
+    "avg_cadence": 76,
+    "avg_hr": 140,
+    "max_hr": 167,
+    "calories_total": 431,
+    "moves": 946,
+    "compliance_pct": 82,
+    "tredict_activity_id": "29ih2qw81CtXPikA2eXWgf",
+    "notes": "Mywellness com a font principal confirmada per l’usuari: 42:03, 18,4 km, potència 147/244 W, cadència 76 rpm, 431 kcal, 946 MOVEs, conformitat 82%. FC Garmin 140/167 ppm via Tredict. Garmin registra 44:46, 12,912 km, 133/173 W, 79/92 rpm i 494 kcal; aquestes mesures no substitueixen Mywellness ni se sumen. Usuari indica pendent vincular rellotge amb bicicleta.",
+    "id": "tredict-29ih2qw81CtXPikA2eXWgf"
+  },
+  {
     "id": "jsx-147",
     "date": "2026-10-12",
     "type": "Running",
@@ -638,7 +695,7 @@ const SESSIONS_BASE = [
     "max_cadence": 184,
     "calories_total": 366,
     "moves": 834,
-    "notes": "Distància i velocitat principals de la màquina Mywellness: 5 km, 30:04, 6:01/km, velocitat 10/12 km/h; 413 kcal estimades i 834 MOVEs. Alternança de trams aproximadament 9–10 km/h amb final progressiu fins a 12 km/h. Garmin via Tredict: 30:05, 5,13891 km, ritme 5:51/km, FC 140/155, potència 198/238 W, cadència 174/184, 366 kcal estimades. Durada, FC, potència, cadència i calories principals Garmin. Diferència de mesura de distància entre rellotge i màquina; fonts indicades per comparar sempre amb el mateix criteri. Total Garmin peses + cinta: 556 kcal; Mywellness conjunt: 560 kcal, 1157 MOVEs. No sumar les dues fonts. Estat del taló avui pendent de confirmar."
+    "notes": "Distància i velocitat principals de la màquina Mywellness: 5 km, 30:04, 6:01/km, velocitat 10/12 km/h; 413 kcal estimades i 834 MOVEs. Alternança de trams aproximadament 9–10 km/h amb final progressiu fins a 12 km/h. Garmin via Tredict: 30:05, 5,13891 km, ritme 5:51/km, FC 140/155, potència 198/238 W, cadència 174/184, 366 kcal estimades. Durada, FC, potència, cadència i calories principals Garmin. Diferència de mesura de distància entre rellotge i màquina; fonts indicades per comparar sempre amb el mateix criteri. Total Garmin peses + cinta: 556 kcal; Mywellness conjunt: 560 kcal, 1157 MOVEs. No sumar les dues fonts. Estat del taló avui pendent de confirmar. Aclariment usuari: 48 m de desnivell, alternant cada 5 minuts pla amb inclinació del 2–3%; molt bones sensacions. Objectiu: preparar curses amb tobogans."
   },
   {
     "id": "jsx-146",
