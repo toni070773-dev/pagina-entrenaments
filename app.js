@@ -40,6 +40,7 @@ document.querySelector('#pes').innerHTML=`<div class="card"><h2>Pes · ${weights
 // References select existing records; measurements and source notes stay in data.js.
 function treadmillProgress(){
   const references=[
+    ['tredict-8ZX8gHgiF8f9viG3EPEfZ5','Progressiu 26/10','75 minuts; sensació de marge i sense molèsties al taló. Fonts de cinta i Garmin difereixen en distància; no prova una tendència.'],
     ['tredict-qiqj1qqKTrVwVVxwBsMEvP','Progressiu continu','Resistència amb augment gradual de velocitat. Molt bones sensacions finals segons l’usuari; una sessió aïllada no estableix una tendència.'],
     ['tredict-qqBcsVcsvLx3Spmi7KVu6Y','Sèries 6×600 m','Velocitat mantinguda en les sis repeticions segons l’usuari. Bé de cardio, però costa sostenir la velocitat. Recuperacions exactes no confirmades.'],
     ['jsx-147','Inclinació · després de peses','Alternança cada 5 minuts entre pla i 2–3% d’inclinació; 48 m segons l’usuari i molt bones sensacions. La càrrega de pendent i les peses prèvies limiten la comparació directa.']

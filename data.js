@@ -4284,4 +4284,33 @@ const CURSES_BASE = [
     "obs": "Marató després de 13 anys, a punt de baixar de 4 hores!"
   }
 ];
+SESSIONS_BASE.push(...[
+  {
+    "id": "tredict-7n61SQVHeJZ8cZ1NBuUPF7",
+    "date": "2026-10-25",
+    "type": "Running",
+    "name": "Cinta · rodatge",
+    "duration_min": 32.21666666666667,
+    "distance_km": 5.0192,
+    "avg_hr": 132,
+    "max_hr": 143,
+    "tredict_activity_id": "7n61SQVHeJZ8cZ1NBuUPF7",
+    "notes": "Garmin via Tredict: 32:13, 5,019 km, FC 132/143 ppm. Distància de cinta no confirmada; no confondre amb el progressiu del 26/10."
+  },
+  {
+    "id": "tredict-8ZX8gHgiF8f9viG3EPEfZ5",
+    "date": "2026-10-26",
+    "type": "Running",
+    "name": "Cinta progressiva · 12,59 km",
+    "duration_min": 75.48333333333333,
+    "distance_km": 12.59,
+    "avg_speed_kmh": 10,
+    "max_speed_kmh": 11,
+    "elevation_gain_m": 1,
+    "avg_hr": 137,
+    "max_hr": 150,
+    "tredict_activity_id": "8ZX8gHgiF8f9viG3EPEfZ5",
+    "notes": "MyWellness: 1:15:29, 12,59 km, 6:00/km, velocitat mitjana 10 i màxima 11 km/h, 1 m de desnivell indicat, 1.000 kcal i 2.013 MOVEs. Garmin via Tredict: 1:15:30, 11,84 km, FC 137/150 ppm. Distància i velocitat principals de la cinta, subjectes a calibratge; FC del Garmin. Mateixa sessió, no sumar fonts. Sensacions: molt bé, amb capacitat percebuda de córrer més ràpid i més estona; sense molèsties al taló."
+  }
+]);
 window.TRAINING_DATA={sessions:SESSIONS_BASE,monthly:MONTHLY_BASE,weights:WEIGHTS_BASE,inbody:INBODY_BASE,races:CURSES_BASE};
